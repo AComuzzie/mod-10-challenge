@@ -1,3 +1,3 @@
-const createFile = require ('./lib/createFile');
+const createLogo = require ('./lib/prompts');
 
-new createFile().init();
+new createLogo().run();
